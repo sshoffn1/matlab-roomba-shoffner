@@ -12,7 +12,7 @@ while true
             r.turnAngle(90)
             r.moveDistance(0.4)
             r.turnAngle(-90)
-            r.moveDistance(0.4)
+            r.moveDistance(0.8)
             r.turnAngle(-90)
             r.moveDistance(0.4)
             r.turnAngle(90)
