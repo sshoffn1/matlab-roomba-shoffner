@@ -7,6 +7,7 @@ while true
     if c.left<2500 || c.leftFront<2500 || c.rightFront<2500 || c.right<2500
         r.stop
         r.moveDistance(-0.2)
+        r.songPlay('O5,T400,C,E,G,C^*2,G,C^*4')
         r.turnAngle(180)
         r.setDriveVelocity(v,v)
     end
